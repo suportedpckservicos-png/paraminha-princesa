@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Surpresa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>surpresa minha preta</h1>
+    </header>
+    <main>
+        <button id="surpriseButton">botão do amor</button>
+        <p id="message" style="display: none;">🌹 eu ainda amo vc muito! 🌹</p>
+    </main>
+    <footer>
+        <p>&copy; castroo</p>
+    </footer>
+    <script>
+        document.getElementById('surpriseButton').onclick = function() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
